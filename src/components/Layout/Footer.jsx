@@ -215,7 +215,6 @@ const Footer = () => {
         <div className="container-custom py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-secondary-400 text-sm">
-              <p>© {currentYear} Construtora Alencar. Todos os direitos reservados.</p>
               <p className="mt-1">CNPJ: 12.345.678/0001-90</p>
             </div>
             
