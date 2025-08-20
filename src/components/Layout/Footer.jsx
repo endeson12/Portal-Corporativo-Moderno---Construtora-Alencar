@@ -65,7 +65,7 @@ const Footer = () => {
                 <Building2 className="h-8 w-8 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold font-display">
+                <h3 className="text-xl font-bold font-display text-white">
                   Construtora Alencar
                 </h3>
                 <p className="text-sm text-secondary-400">
@@ -102,7 +102,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <h3 className="text-lg font-semibold mb-6 font-display">
+            <h3 className="text-lg font-semibold mb-6 font-display text-white">
               Links Rápidos
             </h3>
             <ul className="space-y-3">
@@ -126,7 +126,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <h3 className="text-lg font-semibold mb-6 font-display">
+            <h3 className="text-lg font-semibold mb-6 font-display text-white">
               Nossos Serviços
             </h3>
             <ul className="space-y-3">
@@ -147,7 +147,7 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <h3 className="text-lg font-semibold mb-6 font-display">
+            <h3 className="text-lg font-semibold mb-6 font-display text-white">
               Entre em Contato
             </h3>
             <div className="space-y-4">
