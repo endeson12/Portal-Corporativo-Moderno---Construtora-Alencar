@@ -506,15 +506,15 @@ const Servicos = () => {
       </section>
 
       {/* Quality Indicators */}
-      <section className="section-padding bg-secondary-900 text-white">
+      <section ref={qualityRef} className="section-padding bg-secondary-900 text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            animate={servicesInView ? { opacity: 1, y: 0 } : {}}
+            animate={qualityInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl lg:text-5xl font-bold font-display mb-6">
+            <h2 className="text-4xl lg:text-5xl font-bold font-display text-white mb-6">
               Qualidade Comprovada
             </h2>
             <p className="text-xl text-secondary-300 max-w-3xl mx-auto">
