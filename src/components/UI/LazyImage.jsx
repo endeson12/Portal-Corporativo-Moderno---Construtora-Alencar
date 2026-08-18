@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 
@@ -8,7 +8,6 @@ const LazyImage = ({
   className = '', 
   width, 
   height,
-  placeholder = 'blur',
   priority = false 
 }) => {
   const [isLoaded, setIsLoaded] = useState(false)

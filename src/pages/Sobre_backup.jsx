@@ -4,17 +4,10 @@ import { useInView } from 'react-intersection-observer'
 import SEOHead from '../components/SEO/SEOHead'
 import { Link } from 'react-router-dom'
 import { 
-  Building2, 
-  Users, 
-  Award, 
+  Building2,
   Target, 
   Eye, 
   Heart,
-  Calendar,
-  MapPin,
-  Trophy,
-  Shield,
-  CheckCircle,
   ArrowRight
 } from 'lucide-react'
 

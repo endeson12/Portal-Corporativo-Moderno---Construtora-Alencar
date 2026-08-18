@@ -208,7 +208,7 @@ const Hero = () => {
               
               <div className="mt-6 p-4 bg-gradient-to-r from-primary-50 to-accent-gold/10 rounded-lg">
                 <p className="text-sm text-secondary-700 font-medium text-center">
-                  "Excelência reconhecida pelos principais órgãos do setor"
+                  &quot;Excelência reconhecida pelos principais órgãos do setor&quot;
                 </p>
               </div>
             </motion.div>

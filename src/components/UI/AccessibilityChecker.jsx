@@ -58,7 +58,7 @@ const AccessibilityChecker = ({ isDev = false }) => {
       // Verificar headings em ordem
       const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6')
       let lastLevel = 0
-      headings.forEach((heading, index) => {
+      headings.forEach((heading) => {
         const level = parseInt(heading.tagName.charAt(1))
         if (level > lastLevel + 1) {
           foundIssues.push({

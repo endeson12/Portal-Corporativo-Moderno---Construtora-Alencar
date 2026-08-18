@@ -54,7 +54,7 @@ export const phoneMask = (value) => {
 }
 
 // Email service integration
-export const sendEmail = async (formData) => {
+export const sendEmail = async () => {
   // Simulate email sending - replace with actual EmailJS integration
   return new Promise((resolve, reject) => {
     setTimeout(() => {

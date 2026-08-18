@@ -17,8 +17,6 @@ import {
 } from 'lucide-react'
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
-
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'Sobre Nós', path: '/sobre' },

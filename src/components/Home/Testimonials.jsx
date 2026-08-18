@@ -125,7 +125,7 @@ const Testimonials = () => {
 
               {/* Testimonial Text */}
               <p className="text-secondary-700 leading-relaxed mb-6 text-lg">
-                "{testimonial.text}"
+                &quot;{testimonial.text}&quot;
               </p>
 
               {/* Project Reference */}

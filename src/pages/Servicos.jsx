@@ -22,9 +22,7 @@ import {
 } from 'lucide-react'
 
 const Servicos = () => {
-  const [heroRef, heroInView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [servicesRef, servicesInView] = useInView({ triggerOnce: true, threshold: 0.1 })
-  const [processRef, processInView] = useInView({ triggerOnce: true, threshold: 0.1 })
   const [qualityRef, qualityInView] = useInView({ triggerOnce: true, threshold: 0.1 })
 
   const mainServices = [

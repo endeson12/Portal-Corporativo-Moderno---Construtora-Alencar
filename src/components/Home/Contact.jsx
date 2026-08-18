@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { useForm } from 'react-hook-form'
-import { yupResolver } from '@hookform/resolvers/yup'
-import { contactFormSchema, phoneMask, sendEmail } from '../../utils/validation'
 import { 
   Mail, 
   Phone, 

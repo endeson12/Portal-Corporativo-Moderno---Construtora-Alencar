@@ -11,9 +11,7 @@ import {
   AlertCircle,
   User,
   Building,
-  MessageSquare,
-  Calendar,
-  DollarSign
+  MessageSquare
 } from 'lucide-react'
 
 const Contato = () => {
